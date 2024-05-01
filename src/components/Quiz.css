@@ -1,0 +1,73 @@
+.main{
+    height: 550px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(43, 58, 79);
+    display: flex;
+    justify-content: space-between;
+   color: white;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.question-list{
+    display: flex;
+    flex-direction: column;
+}
+.question-no{
+    color: white;
+    margin: 20px;
+}
+
+
+p{
+    margin: 20px;
+    padding: 4px;
+}
+.ans-btn{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ans-btn span{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(43, 58, 79); 
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    height: 550px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.score h3{
+    margin: 10px;
+    padding: 4px;
+}
+.retry-btn{
+   width: 120px;
+    background-color: rgb(43, 195, 43);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
